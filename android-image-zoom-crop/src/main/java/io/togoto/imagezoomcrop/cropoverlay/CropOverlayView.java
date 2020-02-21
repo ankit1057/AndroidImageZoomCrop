@@ -33,7 +33,7 @@ public class CropOverlayView extends View implements IGetImageBounds {
 
     // we are cropping square image so width and height will always be equal
     private int DEFAULT_CROPWIDTH = 600;
-    private static final int DEFAULT_CORNER_RADIUS = 6;
+    private static final int DEFAULT_CORNER_RADIUS = 600;
     private static final int DEFAULT_OVERLAY_COLOR = Color.argb(204, 41, 48, 63);
 
     // The Paint used to darken the surrounding areas outside the crop area.
